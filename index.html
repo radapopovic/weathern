@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vremenska prognoza</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Beograd</h1>
+        <h2>Vremenska prognoza</h2>
+        <p class="vreme"><img src="img/clock.png" alt="clock" class="clock"> <span id="time"></span></p>
+        <div class="center">
+            <div class="icon">
+                <p id="icon"></p>
+                <p id="innerDescription"></p>
+            </div>
+            <div>
+                <p class="temp"> <img src="img/temp.png" alt="tempC"> <span id="temperature"></span> &#8451;</p>
+            </div>
+        </div>
+    
+        <div class="tabela">
+            <table>
+                <tr>
+                    <td>Vetar</td>
+                    <td><span id="wind"></span> m/s</td>
+                </tr>
+                <tr>
+                    <td>Vazdušni pritisak</td>
+                    <td><span id="pressure"></span> mb</td>
+                </tr>
+                <tr>
+                    <td>Vlažnost vazduha</td>
+                    <td><span id="humidity"></span> &#37;</td>
+                </tr>
+                <tr>
+                    <td>Izlazak sunca</td>
+                    <td><span id="sunrise"></span></td>
+                </tr>
+                <tr>
+                    <td>Zalazak sunca</td>
+                    <td><span id="sunset"></span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+        
+    <script src="main.js"></script>
+    
+</body>
+</html>

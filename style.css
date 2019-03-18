@@ -1,0 +1,74 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(img/ws_Day_and_Night_1024x768.jpg);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 50%;
+    border-radius: 10px;
+    margin: 10% auto;
+    background: white;
+    opacity: .5;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+}
+
+.clock {
+    height: 20px;
+}
+.vreme {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.center {
+    display: flex;
+    justify-content: space-around;
+}
+
+.temp, .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon {
+    font-size: 1.5em;
+}
+
+.temp {
+    font-size: 4em;
+}
+.temp img {
+    padding: 10px;
+}
+
+table, tr, td {
+    border: 1px solid black;
+}
+
+tr {
+    height: 30px;
+}
+
+td:nth-child(odd) {
+    width: 250px;
+}
+td:nth-child(even) {
+    width: 100px;
+    text-transform: none;
+}
+
+.tabela {
+    display: flex;
+    justify-content: center;
+}
+
+
+
